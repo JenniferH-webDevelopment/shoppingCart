@@ -24,102 +24,10 @@
                                             <h1 class="fw-bold mb-0 text-black">Shopping List</h1>
                                         </div>
                                         <hr class="my-4">
+                                        <div data-mdb-perfect-scrollbar="true"
+                                            style="position: relative; height: 400px" id="product-list">
 
-                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                                            <div class="col-md-2 col-lg-2 col-xl-2">
-                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
-                                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-3">
-                                                <h6 class="text-muted">Shirt</h6>
-                                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                    <i class="fa fa-minus-square"></i>
-                                                </button>
-
-                                                <input id="form1" min="0" name="quantity" value="1" type="number"
-                                                    class="form-control form-control-sm" />
-
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                    <i class="fa fa-plus-square"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                                <h6 class="mb-0">$ 44.00</h6>
-                                            </div>
-                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                <a href="#!" class="text-muted"><i class="fa fa-cart-plus"
-                                                        title="Add to cart"></i></a>
-                                            </div>
                                         </div>
-                                        <hr class="my-4">
-                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                                            <div class="col-md-2 col-lg-2 col-xl-2">
-                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp"
-                                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-3">
-                                                <h6 class="text-muted">Shirt</h6>
-                                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                    <i class="fa fa-minus-square"></i>
-                                                </button>
-                                                <input id="form1" min="0" name="quantity" value="1" type="number"
-                                                    class="form-control form-control-sm" />
-
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                    <i class="fa fa-plus-square"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                                <h6 class="mb-0">$ 44.00</h6>
-                                            </div>
-                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                <a href="#!" class="text-muted"><i class="fa fa-cart-plus"
-                                                        title="Add to cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <hr class="my-4">
-                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
-                                            <div class="col-md-2 col-lg-2 col-xl-2">
-                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp"
-                                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-3">
-                                                <h6 class="text-muted">Shirt</h6>
-                                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
-                                            </div>
-                                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                    <i class="fa fa-minus-square"></i>
-                                                </button>
-
-                                                <input id="form1" min="0" name="quantity" value="1" type="number"
-                                                    class="form-control form-control-sm" />
-
-                                                <button class="btn btn-link px-2"
-                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
-                                                    <i class="fa fa-plus-square"></i>
-                                                </button>
-                                            </div>
-                                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                                <h6 class="mb-0">$ 44.00</h6>
-                                            </div>
-                                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                <a href="#!" class="text-muted"><i class="fa fa-cart-plus"
-                                                        title="Ädd to cart"></i></a>
-                                            </div>
-                                        </div>
-                                        <hr class="my-4">
                                     </div>
                                 </div>
                                 <div class="col-lg-4 bg-grey">
@@ -127,56 +35,34 @@
                                         <h3 class="fw-bold mb-5 mt-2 pt-1">Shopping Cart</h3>
                                         <table class="table">
                                             <thead>
-                                              <tr>
-                                                <th scope="col">Item</th>
-                                                <th scope="col">Quantity</th>
-                                                <th scope="col">Price</th>
-                                                <th scope="col">Total</th>
-                                                <th scope="col">Delete</th>
-                                              </tr>
+                                                <tr>
+                                                    <th scope="col">Item</th>
+                                                    <th scope="col">Quantity</th>
+                                                    <th scope="col">Price</th>
+                                                    <th scope="col">Total</th>
+                                                    <th scope="col">Delete</th>
+                                                </tr>
                                             </thead>
-                                            <tbody>
-                                              <tr>
-                                                <th scope="row">T-shirt 1</th>
-                                                <td class="text-center">1</td>
-                                                <td class="text-center">$44.00</td>
-                                                <td class="text-center">$44.00</td>
-                                                <td class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row">T-shirt 2</th>
-                                                <td class="text-center">2</td>
-                                                <td class="text-center">$44.00</td>
-                                                <td class="text-center">$88.00</td>
-                                                <td class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row">T-shirt 3</th>
-                                                <td class="text-center">3</td>
-                                                <td class="text-center">$44.00</td>
-                                                <td class="text-center">$132.00</td>
-                                                <td class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></td>
-                                              </tr>
+                                            <tbody id="cart-list">
                                             </tbody>
-                                          </table>
-                                          <div class="d-flex justify-content-between mb-4">
-                                            <h5 class="text-uppercase">Total items 3</h5>
-                                            <h5>$ 132.00</h5>
+                                        </table>
+                                        <div class="d-flex justify-content-between mb-4">
+                                            <h5 class="text-uppercase">Total items <span  id="total-cart-item">0</span></h5>
+                                            <h5>$ <span id="total-cart-amount">0.00</span></h5>
                                         </div>
                                         <hr class="my-4">
                                         <h5 class="text-uppercase mb-3">Shipping</h5>
                                         <div class="mb-4 pb-2">
-                                            <select class="select">
-                                                <option value="1">Standard-Delivery - $5.00</option>
-                                                <option value="2">Express-Delivery - $10.00</option>
-
+                                            <select class="select" name="delivey-cost" id="delivery-cost">
+                                                <option value="5" selected>Standard-Delivery - $5.00</option>
+                                                <option value="10">Express-Delivery - $10.00</option>
                                             </select>
                                         </div>
                                         <hr class="my-4">
                                         <h5 class="text-uppercase mb-3">Promotion code</h5>
                                         <div class="mb-5">
                                             <div class="form-outline">
-                                                <input type="text" id="form3Examplea2"
+                                                <input type="text" id="promotion-code" name="promotion-code"
                                                     class="form-control form-control-lg" />
                                                 <label class="form-label" for="form3Examplea2">Enter your code</label>
                                             </div>
@@ -184,7 +70,7 @@
                                         <hr class="my-4">
                                         <div class="d-flex justify-content-between mb-5">
                                             <h5 class="text-uppercase">Total price</h5>
-                                            <h5>$ 137.00</h5>
+                                            <h5>$ <span id="total-amount">0.00</span></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -202,5 +88,8 @@
     </script>
 
     <!-- Include required custom Javascripts file -->
+    <script src="./js/promotion.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/product.js"></script>
     <script src="./js/index.js"></script>
 </body>
